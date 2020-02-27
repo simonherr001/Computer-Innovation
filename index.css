@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+body{
+    background-image: url(https://storage.needpix.com/rsynced_images/lilac-haze-background.jpg) ;
+    background-size: cover;
+}
+p {
+    font-size: 25px;
+    text-align: ;
+    }
+    h1{
+        text-align: center;
+    }
+    img {
+         display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+[class^="column"]{
+
+}
+
+.column{
+    
+}
+li{
+    text-decoration: transparent;  
+    font-size: 24px;
+}
+.li-color{
+    border: 2px solid black; 
+    width: 69px;
+    height: 85px;
+    box-shadow: 8px solid white;
+    background-color: white;
+
+}
+[class^="li-color"]{
+    flex-wrap: wrap;
+}
+
+.picture-border{
+    border: 1px  ;
+    height: 250px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+}

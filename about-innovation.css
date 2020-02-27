@@ -1,0 +1,18 @@
+p {
+    color: aqua;
+    font-size: 25px;
+}
+body{
+    background-size: cover;
+    background-image: url(https://www.heathrowe.com/tuts/fadetext/2.gif)
+}
+h2 {
+    text-align: center;
+    color: aqua;
+    }
+h1{
+    color: aqua;
+}
+footer{
+    color: aqua;
+}

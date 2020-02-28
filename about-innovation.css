@@ -1,6 +1,6 @@
 p {
-    color: aqua;
-    font-size: 25px;
+    color: white;
+    font-size: 180%;
 }
 body{
     background-size: cover;
@@ -8,11 +8,47 @@ body{
 }
 h2 {
     text-align: center;
-    color: aqua;
+    color: white;
     }
 h1{
-    color: aqua;
+    color: white;
 }
 footer{
-    color: aqua;
+    color: rgb(196, 196, 196);
 }
+[class^="column"]{
+   column-count: 3;
+}
+
+.column{
+    column-count: 3;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 10px 10px 10px black;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: cyan;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  button{
+      font-size: 25px;
+  }

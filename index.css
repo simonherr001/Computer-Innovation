@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
 body{
     background-image: url(https://storage.needpix.com/rsynced_images/lilac-haze-background.jpg) ;
     background-size: cover;
 }
 p {
     font-size: 33px;
+    font-family: 'Simonetta';
+    }
+    h2{
+        font-family: 'Simonetta' ;
     }
     h1{
         text-align: center;
+        font-family: 'Simonetta' ;
     }
     img {
          display: block;
@@ -59,4 +64,7 @@ column-count: 2;
   }
   button{
       font-size: 25px;
+      color:black;
+      box-shadow: 5px 5px black;
+      font-family: 'Simonetta' ;
   }

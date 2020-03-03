@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
 p{ 
     font-size: 35px;
     text-align: center;
     color: rgb(248, 16, 8);
     align-content: center;
+    font-family: 'Simonetta' ;
 }
 table{
     border-collapse: collapse;
@@ -23,6 +25,7 @@ body{
 h1{
      text-align: center;
      color:rgb(248, 16, 8);
+     font-family: 'Simonetta' ;
 }
 img {
      display: block;
@@ -37,6 +40,7 @@ td{
 }
 h2{
     color: rgb(248, 16, 8);
+    font-family: 'Simonetta' ;
 }
 
 .dropdown-content{
@@ -65,7 +69,10 @@ h2{
     background-color: #3e8e41;
   }
   button{
-      font-size: 30px;
+      font-size: 25px;
+      color:black;
+      box-shadow: 5px 5px rgb(95, 94, 94);
+      font-family: 'Simonetta' ;
   }
   [class^="column"]{
     column-count: 2;

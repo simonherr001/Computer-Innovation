@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
 p {
     color: white;
     font-size: 180%;
+    font-family: 'Simonetta' ;
 }
 body{
     background-size: cover;
     background-image: url(https://www.heathrowe.com/tuts/fadetext/2.gif)
 }
 h2 {
-    text-align: center;
     color: white;
+    font-family: 'Simonetta' ;
     }
 h1{
+    text-align:center;
     color: white;
+    font-family: 'Simonetta' ;
 }
 footer{
     color: rgb(196, 196, 196);
@@ -51,4 +55,7 @@ footer{
   }
   button{
       font-size: 25px;
+      color: black;
+      box-shadow: 5px 5px rgb(0, 0, 0);
+      font-family: 'Simonetta' ;
   }
